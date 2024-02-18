@@ -11,7 +11,7 @@ emojiEls.forEach((emoji) => {
     removeActive();
 
     selectTarget = event.target.innerText || event.target.parentNode.innerText;
-    console.log("innertext", selectTarget);
+    
     event.target.classList.add("active");
   });
 });
